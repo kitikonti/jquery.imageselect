@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>Image Select</title>
+  <link rel="stylesheet" type="text/css" href="jquery.imageselect/jquery.imageselect.min.css" />
+  <link rel="stylesheet" type="text/css" href="jquery.imageselect/sample.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.js"></script>
+  <script type="text/javascript" src="jquery.imageselect/jquery.imageselect.min.js"></script>
+  <script type="text/javascript">
+    
+    (function($){
+      $(function() {
+        $('select[name="sports"]').imageSelect({
+          src:{
+            skiing:"http://www.clker.com/cliparts/9/4/2/3/12550940831326752382Olympic_sports_Alpine_skiing_pictogram.svg.med.png",
+            curling:"http://www.clker.com/cliparts/1/e/5/a/125509436129058689Olympic_sports_Curling_pictogram.svg.med.png",
+            football:"http://www.clker.com/cliparts/b/a/f/0/12550945211297607076Olympic_sports_Football_pictogram.svg.med.png",
+            cycling:"http://www.clker.com/cliparts/3/4/1/a/12550943941430785792Olympic_sports_Cycling_(mountain_biking)_pictogram.svg.med.png",
+            boxing:"http://www.clker.com/cliparts/1/6/9/d/12550942571508683330Olympic_sports_Boxing_pictogram.svg.med.png"
+          },
+        });
+      });
+    })(jQuery);
+
+  </script>
+</head>
+
+<body>
+  
+<select name="sports">
+  <option value="skiing" selected="selected">Skiing</option>
+  <option value="curling">Curling</option>
+  <option value="football">Football</option>
+  <option value="cycling">Cycling</option>
+  <option value="boxing">Boxing</option>
+</select>
+  
+</body>
+</html>

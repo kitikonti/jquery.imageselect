@@ -1,0 +1,29 @@
+.imageselect ul {
+  border:1px solid #ccc;
+  border-radius: 8px;
+  box-shadow:0 0 0 0 #ddd;
+  -webkit-transition: box-shadow 300ms ease-in-out;
+}
+
+.imageselect ul:hover,
+.imageselect ul.expanded {
+  box-shadow:2px 2px 5px 0px #ddd;
+  -webkit-transition: box-shadow 300ms ease-in-out;
+}
+
+.imageselect li {
+  padding:5px;
+  border-radius: 8px;
+  -webkit-transition: background 300ms ease-in-out;
+}
+
+.imageselect li:hover {
+  background:yellow;
+  cursor:pointer;
+  -webkit-transition: background 300ms ease-in-out;
+}
+
+.imageselect img {
+  height:50px;
+  width:50px;
+}

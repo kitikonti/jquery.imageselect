@@ -1,0 +1,28 @@
+.imageselect,
+.imageselect ul,
+.imageselect li,
+.imageselect img {
+  margin: 0;
+  padding: 0;
+}
+
+.imageselect {
+  position:relative;
+}
+
+.imageselect select {
+  display:none;
+}
+
+.imageselect ul {
+  display:block;
+  float:left;
+}
+
+.imageselect li {
+  display:none;
+}
+
+.imageselect li.selected {
+  display:inline-block;
+}
