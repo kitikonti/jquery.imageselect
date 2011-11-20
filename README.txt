@@ -28,4 +28,4 @@ optional
 ________________________________________________________________________________
   you could use the sample.css file from the plugin folder as starting point,
   you see a demo using the sample.css file when opening the index.html in a
-  browser.
+  browser or from http://jsfiddle.net/kitikonti/KNmD2/embedded/result/
